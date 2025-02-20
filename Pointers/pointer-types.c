@@ -27,16 +27,6 @@ int main()
     // printf("Address = %d, value = %d \n", p1, *p1); // invalid as void pointer doesn't know the type of data it is pointing to
     // printf("Address = %d, value = %d \n", p1+1, *(p1+1)); // invalid as void pointer doesn't know the type of data it is pointing to
 
-
-
-
-
-
-
-
-
-
-
     return 0;
 
 }
