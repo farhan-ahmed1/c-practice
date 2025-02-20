@@ -1,5 +1,4 @@
-# c-practice
-# c-practice
+# C Programming Practice
 
 This repository contains several practice programs written in C to help you learn basic programming concepts such as control flow, pointers, and more.
 
