@@ -1,6 +1,34 @@
 // Character arrays and pointers
 #include <stdio.h>
 #include <string.h>
+void print(char* C) 
+{
+    int i = 0;
+    while(C[i] != '\0')
+    {
+        printf("%c", C[i]);
+        i++;
+    }
+    printf("\n");
+
+    // can also be done like this
+    int j = 0;
+    while(*(C+j) != '\0')
+    {
+        printf("%c", *(C+j));
+        j++;
+    }
+    printf("\n");
+
+    // another way it can be done
+    while(*C != '\0')
+    {
+        printf("%c", *C);
+        C++;
+    }
+    printf("\n");
+
+}
 int main()
 {
     char C[4];
@@ -28,4 +56,8 @@ int main()
     char character3[5] = {'J', 'O', 'H', 'N','\0'}; // also valid but null char must be explict
     int len1 = strlen(character1);
     printf("%s\n", character1);
+
+    printf("--------------------\n");
+    char character4[20] = "Hello";
+    print(character4);
 }
