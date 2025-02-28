@@ -4,6 +4,9 @@
 // and strings. we will not expect % nbefoer conversion specifiers. we
 // will not print the contents of format strings. we will not suporrt
 // modifiers to conversions.
+
+
+#define LOG(format, ...) fprintf(log, format, __VA_ARGS__)
 void printf3270 (const char *format, ...)
 {
     va_list ap;
