@@ -29,5 +29,21 @@ int main(void) {
         printf("\n");
     }
 
+    printf("\n");
+
+    // Example 3: Right-angle triangle number pattern.
+    // Expected Output:
+    // 1 
+    // 1 2 
+    // 1 2 3 
+    // 1 2 3 4
+    printf("Example 3: Right-angle Triangle Number Pattern\n");
+    for (int i = 1; i <= 4; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", j);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
